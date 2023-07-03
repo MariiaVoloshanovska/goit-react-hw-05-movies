@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import { useFetchItems } from '../../services/CustomFetchItems';
 import { LoaderSpiner } from '../Loader/Loader';
 
@@ -24,4 +23,3 @@ export default function HomePage() {
     </main>
   );
 }
-
