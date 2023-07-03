@@ -22,7 +22,7 @@ export default function MovieDetails() {
     e.preventDefault();
 
     if (!value) {
-      toast.error('Bы ничего не ввели');
+      toast.error('You have not enter anything');
       return;
     }
     searchQuery(value);

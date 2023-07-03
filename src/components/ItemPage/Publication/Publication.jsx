@@ -12,7 +12,6 @@ export default function Publication({
     genres,
   },
 }) {
-  // console.log(item);
   return (
     <>
       <Article>
