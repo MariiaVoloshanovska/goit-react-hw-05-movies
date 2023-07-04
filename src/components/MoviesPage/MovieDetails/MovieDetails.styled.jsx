@@ -1,11 +1,17 @@
 import styled from 'styled-components';
-// import { Form, Field } from 'formik';
+
 
 export const Input = styled.input`
   width: 250px;
   padding: 5px;
   font-size: 15px;
+
+  /* Woman-specific styles */
+  &.woman {
+    border: 2px solid pink;
+  }
 `;
+
 
 export const Form = styled.form`
   width: 350px;
@@ -16,7 +22,13 @@ export const Form = styled.form`
   display: flex;
   align-items: center;
   text-align: center;
+
+  /* Woman-specific styles */
+  &.woman {
+    background-color: lavender;
+  }
 `;
+
 
 export const Button = styled.button`
   padding: 8px;
@@ -30,9 +42,9 @@ export const Button = styled.button`
   &:hover {
     background-color: #3936f5;
   }
-`;
 
-// export const P = styled.p`
-//   color: red;
-//   margin-top: 5px;
-// `;
+  /* Woman-specific styles */
+  &.woman {
+    background-color: pink;
+  }
+`;

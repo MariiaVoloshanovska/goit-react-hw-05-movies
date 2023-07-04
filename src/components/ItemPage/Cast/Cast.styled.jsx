@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
+
 export const Div = styled.div`
   display: flex;
   text-align: center;
+
+  /* Woman-specific styles */
+  &.woman {
+    background-color: lavender;
+  }
 `;
 
 export const Ul = styled.ul`
@@ -14,7 +20,13 @@ export const Ul = styled.ul`
   margin-right: auto;
   padding: 0;
   margin: 0;
+
+  /* Woman-specific styles */
+  &.woman {
+    background-color: purple;
+  }
 `;
+
 
 export const Li = styled.li`
   width: 200px;
@@ -24,4 +36,10 @@ export const Li = styled.li`
   background-color: #cfcaca;
   border-radius: 3px;
   border: 1px solid;
+
+  /* Woman-specific styles */
+  &.woman {
+    background-color: purple;
+    color: white;
+  }
 `;
