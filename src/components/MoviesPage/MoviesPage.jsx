@@ -21,7 +21,7 @@ export default function MoviesPage() {
         if (values.length > 0) {
           setQwery(values);
         } else {
-          toast.error('Фильм не найден');
+          toast.error('Movie not found');
         }
       } catch (error) {
         console.log(error);

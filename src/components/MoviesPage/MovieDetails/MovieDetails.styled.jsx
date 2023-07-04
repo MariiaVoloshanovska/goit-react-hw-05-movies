@@ -1,17 +1,11 @@
 import styled from 'styled-components';
-
+// import { Form, Field } from 'formik';
 
 export const Input = styled.input`
   width: 250px;
   padding: 5px;
   font-size: 15px;
-
-  /* Woman-specific styles */
-  &.woman {
-    border: 2px solid pink;
-  }
 `;
-
 
 export const Form = styled.form`
   width: 350px;
@@ -22,29 +16,20 @@ export const Form = styled.form`
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Woman-specific styles */
-  &.woman {
-    background-color: lavender;
-  }
 `;
-
 
 export const Button = styled.button`
   padding: 8px;
   margin-left: 5px;
-  background-color: #6360f7;
+  background-color: #7B68EE;
   color: #fff;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
 
   &:hover {
-    background-color: #3936f5;
-  }
-
-  /* Woman-specific styles */
-  &.woman {
-    background-color: pink;
+    background-color: #9370DB;
   }
 `;
+
+

@@ -8,10 +8,9 @@ export const StyledLink = styled(NavLink)`
   text-decoration: none;
 
   &.active {
-    color: tomato;
+    color: purple;
   }
 
-  /* Woman-specific styles */
   &.woman {
     color: pink;
     font-weight: bold;
@@ -25,7 +24,6 @@ export const Nav = styled.nav`
   padding: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 
-  /* Woman-specific styles */
   &.woman {
     background-color: lavender;
   }
