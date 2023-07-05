@@ -23,7 +23,9 @@ const Cast = () => {
 
   return (
     <>
-      {
+      {cast.length === 0 ? (
+        <h3>No cast information available</h3>
+      ) : (
         <StyledList>
           {cast.map(({ id, profile_path, original_name, character }) => (
             <ListItem key={id}>
@@ -44,7 +46,7 @@ const Cast = () => {
             </ListItem>
           ))}
         </StyledList>
-      }
+      )}
     </>
   );
 };
