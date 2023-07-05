@@ -18,7 +18,7 @@ const Form = ({ setSearchParams }) => {
     <form onSubmit={handleSubmit}>
       <InputSearch
         type="text"
-        placeholder="Name movie"
+        placeholder="A movie name"
         autoFocus
         value={query}
         onChange={handleSearchParams}
